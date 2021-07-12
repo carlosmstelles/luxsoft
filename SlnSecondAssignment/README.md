@@ -35,5 +35,7 @@ Class responsabile to receive X and Y and call the method that will do the divis
 - I was going to use this solution: 
 - Convert.ToInt32((((double)X % (double)Y) >= 0) ^ (((double)X % (double)Y) > 0) ^ (((double)X % (double)Y) < 0)) But I wasnt not sure if I could use Convert.
 
+### CallMod
 
+Method responsible to call the method that will divide X by Y.
 
