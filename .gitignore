@@ -3,3 +3,8 @@
 ################################################################################
 
 /SlnFirstAssignment.Runner/PrjFirstAssignment.Runner/obj/Debug
+/SlnFirstAssignment.Runner/packages
+/SlnFirstAssignment.Runner/SequenceAnalysisLibrary/obj
+/SlnFirstAssignment.Runner/SequenceAnalysisLibrary.Test/obj/Debug
+/SlnFirstAssignment.Runner/SumOfMultipleLibrary/obj
+/SlnFirstAssignment.Runner/SumOfMultipleLibrary.Test/obj/Debug

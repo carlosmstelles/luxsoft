@@ -5,11 +5,12 @@ using System;
 
 namespace PrjFirstAssignment.Runner
 {
-    public class FirstAssignment
+
+    class FirstAssignment
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Runner");
+            Console.WriteLine("Runner\n");
 
             bool finish = false;
 
@@ -42,8 +43,7 @@ namespace PrjFirstAssignment.Runner
                         break;
                     default:
 
-                        Console.WriteLine("Invalid option, please select a valid one");
-                        Console.WriteLine();
+                        Console.WriteLine("Invalid option, please select a valid one. \n");
                         break;
                 }
             }
@@ -62,27 +62,21 @@ namespace PrjFirstAssignment.Runner
 
         private static void PrintSumOfMultiple(int limit, double result)
         {
-            Console.WriteLine();
-            Console.WriteLine($"The sum of all numbers multiple of 3 and 5 below {limit} is: {result}");
-            Console.WriteLine();
+            Console.WriteLine($"\nThe sum of all numbers multiple of 3 and 5 below {limit} is: {result}\n");
         }
        
         private static void PrintSequenceAnalysis(string text, string result)
         {
-            Console.WriteLine();
-            Console.WriteLine($"The Uppercase characters alphabetically ordered of the text are: {result} from the text: {text}");
-            Console.WriteLine();
+            Console.WriteLine($"\nThe Uppercase characters alphabetically ordered of the text are: {result} from the text: {text}\n");
         }
 
-        public static int DisplayAvailableProblemsMenu()
+        private static int DisplayAvailableProblemsMenu()
         {
-            Console.WriteLine("Please select one of the options: ");
-            Console.WriteLine();
-            Console.WriteLine("1. SumOfMultiple");
-            Console.WriteLine("2. SequenceAnalysis");
-            Console.WriteLine("3. Exit");
-            Console.WriteLine();
-
+            Console.WriteLine("Please select one of the options: \n" +
+                               "1. SumOfMultiple\n" +
+                               "2. SequenceAnalysis\n" +
+                               "3. Exit\n");
+            
             string option = Console.ReadLine()?.ToLower();
 
             switch (option)

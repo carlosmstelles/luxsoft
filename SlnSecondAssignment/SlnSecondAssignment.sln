@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrjSecondAssignment", "PrjSecondAssignment\PrjSecondAssignment.csproj", "{8F5800B0-A4E3-475C-96F1-49F02558A1EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondAssignmentIsXDivisibleByY.Text", "SecondAssignmentIsXDivisibleByY.Text\SecondAssignmentIsXDivisibleByY.Text.csproj", "{19E6A572-C01F-4025-A151-91E60722C465}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8F5800B0-A4E3-475C-96F1-49F02558A1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F5800B0-A4E3-475C-96F1-49F02558A1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F5800B0-A4E3-475C-96F1-49F02558A1EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E6A572-C01F-4025-A151-91E60722C465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E6A572-C01F-4025-A151-91E60722C465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E6A572-C01F-4025-A151-91E60722C465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E6A572-C01F-4025-A151-91E60722C465}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
